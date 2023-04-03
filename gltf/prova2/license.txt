@@ -1,0 +1,11 @@
+Model Information:
+* title:	Perisphinctes sp.
+* source:	https://sketchfab.com/3d-models/perisphinctes-sp-4426d269d52b4269b421226c054b9e07
+* author:	Steinkern (https://sketchfab.com/steinkern)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Perisphinctes sp." (https://sketchfab.com/3d-models/perisphinctes-sp-4426d269d52b4269b421226c054b9e07) by Steinkern (https://sketchfab.com/steinkern) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

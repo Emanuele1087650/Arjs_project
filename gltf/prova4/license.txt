@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hoplites QH665
+* source:	https://sketchfab.com/3d-models/hoplites-qh665-81ceaca70b954ac498cefc1a9f8a76fe
+* author:	Musée national d'histoire naturelle Luxembourg (https://sketchfab.com/mnhnl)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hoplites QH665" (https://sketchfab.com/3d-models/hoplites-qh665-81ceaca70b954ac498cefc1a9f8a76fe) by Musée national d'histoire naturelle Luxembourg (https://sketchfab.com/mnhnl) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

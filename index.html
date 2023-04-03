@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AR.js A-Frame Location-based</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex-location-only.js'></script>
+        <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'></script>
+
+        <script type="module" src="firebase.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        
+        <a-scene cursor="rayOrigin: mouse; fuseTimeout: 0" raycaster="objects: a-entity, a-box" id="scene" vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
+
+            <a-camera id='camera1' look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1' far=30  gps-projected-camera='gpsMinDistance: 1; positionMinAccuracy: 5; alert: true'></a-camera>
+
+            <div class="message" id="message" style="display: none"></div>
+
+            <div id="info-box" style="display: none">
+                <div class="image-info">
+                    <img id="img"></img>
+                </div>
+                    
+                <div class="description-info">
+                    <h1 id="title-info"></h1>
+                    <p id="description-info"></p>
+                </div>
+            </div>
+
+        </a-scene>
+
+    </body>
+</html>
