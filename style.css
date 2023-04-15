@@ -64,3 +64,35 @@ html{
     margin: 10% 5%;
     font-size: larger;
 }
+
+#lista_raccolta{
+    background-color: rgb(0, 0, 0, 0.9);
+    color: white;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    overflow: scroll;
+}
+
+#lista_raccolta li{
+    border-bottom: solid;
+    padding: 20px 0px;
+}
+
+#lista_raccolta ul{
+    list-style-type: none;
+    padding: 40px;
+}
+
+#lista_raccolta h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{
+    z-index:2;
+    right: 0px;
+    margin: 10px;
+    position: absolute;
+}
