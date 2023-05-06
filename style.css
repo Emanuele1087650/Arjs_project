@@ -65,7 +65,7 @@ html{
     font-size: larger;
 }
 
-#lista_raccolta{
+#list{
     background-color: rgb(0, 0, 0, 0.9);
     color: white;
     height: 100%;
@@ -75,17 +75,17 @@ html{
     overflow: scroll;
 }
 
-#lista_raccolta li{
+#list li{
     border-bottom: solid;
     padding: 20px 0px;
 }
 
-#lista_raccolta ul{
+#list ul{
     list-style-type: none;
     padding: 40px;
 }
 
-#lista_raccolta h1{
+#list h1{
     text-align: center;
     margin-top: 50px;
 }
@@ -95,4 +95,24 @@ button{
     right: 0px;
     margin: 10px;
     position: absolute;
+}
+
+.li_list{
+    display: flex;
+    align-items: center;
+}
+
+#li_structure p{
+    margin:0px;
+}
+
+.hidden_info{
+    padding-left: 24%;
+    padding-top: 4px; 
+    overflow: scroll; 
+    max-height: 100px;
+}
+
+.hidden_info p{
+    font-size: small;
 }
